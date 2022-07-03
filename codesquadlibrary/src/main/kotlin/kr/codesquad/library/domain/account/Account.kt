@@ -11,9 +11,9 @@ class Account(
     var id: Long? = null,
 
     var oauthId: String,
-    var name: String,
+    var name: String? = null,
     var email: String,
-    var avatarUrl: String,
+    var avatarUrl: String? = null,
 
     @Enumerated(EnumType.STRING)
     var libraryRole: LibraryRole
