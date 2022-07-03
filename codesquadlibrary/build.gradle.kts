@@ -31,7 +31,8 @@ dependencies {
 
     // db
     runtimeOnly("mysql:mysql-connector-java")
-    implementation("org.flywaydb:flyway-core")
+    implementation("org.flywaydb:flyway-core:8.4.4")
+    implementation("org.flywaydb:flyway-mysql:8.4.4")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.8.0")
 
