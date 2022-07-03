@@ -23,7 +23,7 @@ class Book(
 
     var isbn: String? = null,
     var available: Boolean = true,
-    var recommendCount: Int = 0,
+    var recommendCount: Long = 0,
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
